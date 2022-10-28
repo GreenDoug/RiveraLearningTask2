@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Burjkhalifa"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/burj_khalifa"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:translationX="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/burj_khalifa"
+        android:translationX="55dp"
+        android:translationY="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225"
+        app:srcCompat="@drawable/burjkhalifa" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:text="@string/the_burj_khalifa_known_as_the_burj_dubai_prior_to_its_inauguration_in_2010_is_a_skyscraper_in_dubai_united_arab_emirates_it_is_known_for_being_the_world_s_tallest_building_with_a_total_height_of_829_8_m_2_722_ft_or_just_over_half_a_mile_and_a_roof_height_of_828_m_2_717_ft_the_burj_khalifa_has_been_the_tallest_structure_and_building_in_the_world_since_its_topping_out_in_2009_supplanting_taipei_101_the_previous_holder_of_that_status"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:translationX="30dp"
+        android:translationY="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+</LinearLayout>
